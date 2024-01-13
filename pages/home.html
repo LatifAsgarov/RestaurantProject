@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PatioTime Elegant – Elegant Restaurant</title>
     <link rel="stylesheet" href="/scripts/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/Screenshot 2024-01-13 at 16.33.32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -29,25 +30,34 @@
 
             </div>
         </div>
-        </div>
+      
         <nav>
             <div class="nav-main">
                 <div class="nav-second-div">
                     <div class="nav-left"> <a href="/pages/home.html"><img src="/images/p-logo (1).png" alt=""> </a></div>
                     <div class="nav-middle">
                         <ul>
-                        <a href=""><li>HOME <i class="fa-solid fa-chevron-down" style="font-size: 10px;"></i></li></a>
-                        <a href=""> <li>ABOUT <i class="fa-solid fa-chevron-down"  style="font-size: 10px;"></i></li></a>
-                        <a href=""> <li>OUR MENU</li></a>
-                        <a href=""></a><li>RESERVATION</li></a>
-                        <a href=""></a><li>CONTACT</li></a>
-                        <a href=""> <li>LATEST NEWS</li></a>
+                        <a href="/pages/home.html" class="active"><li><span>HOME</span> <i class="fa-solid fa-chevron-down" style="font-size: 10px;"></i></li></a>
+                        <a href="/pages/home.html"><li><span>ABOUT</span> <i class="fa-solid fa-chevron-down" style="font-size: 10px;"></i></li></a>
+                        <a href=""> <li><span>OUR MENU</span></li></a>
+                        <a href=""><li><span>RESERVATION</span></li></a>
+                        <a href=""><li><span>CONTACT</span></li></a>
+                        <a href=""> <li><span>LATEST NEWS</span></li></a>
                     </ul>
                 </div>
                     <div class="nav-right"><button class="nav-btn">FIND A TABLE</button></div>
                 </div>
             </div>
         </nav>
+
+        <div class="mobile-header">
+            <div class="nav-left">
+                <a href="/pages/home.html"><img src="/images/p-logo (1).png" alt="Logo"></a>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <i class="fas fa-bars" style="color: white;"></i>
+            </div>
+        </div>
     </header>
 
     <main>

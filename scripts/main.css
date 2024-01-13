@@ -55,7 +55,8 @@ a{
 
 .pre-nav{
     padding: 16px 0;
-    border-bottom: 1px solid rgb(155, 155, 155);
+    border-bottom: 1px solid rgb(73, 73, 73);
+    
 }
 .pre-nav-text{
     display: flex;
@@ -75,6 +76,16 @@ a{
     font-size: 14px;
     font-weight: 100;
     font-family:Arial, Helvetica, sans-serif;
+}
+
+.nav-middle a span {
+    border-bottom: 2px solid transparent; /* Invisible border to prevent layout shift on hover */
+    padding-bottom: 2px; /* Padding to space out the border */
+    transition: border-color 0.3s ease; /* Smooth transition for the border color */
+}
+
+.nav-middle a:hover span, .nav-middle a.active span {
+    border-bottom: 2px solid #dd5903; /* Changes border color on hover and for active link */
 }
 nav{
     color: #ffffff;
@@ -132,10 +143,14 @@ footer{
 }
 .footer-middle ul{
     display: flex;
-    justify-content: space-between;
+    
+    box-sizing: border-box;
 }
 .footer-middle li{
-    padding: 5px 15px;
+    
+    padding: 5px 15px; /* Adjust padding as needed */
+    
+   
 }
 .footer-left i{
      color: #ffffff;
@@ -158,3 +173,63 @@ footer{
     transition: color 0.5s ease;
 }
 
+.mobile-header{
+    display: none;
+
+}
+
+@media (max-width: 600px) {
+
+    body{
+        padding: 20px 31.2px;
+    }
+    footer{
+        box-sizing: border-box;
+    }
+    .footer-main {
+        display: block; 
+        padding: 0 15px; 
+        margin: 0 auto; 
+        max-width: 100%; 
+        box-sizing: border-box;
+    }
+    
+    .footer-left, .footer-middle, .footer-right {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%; 
+        box-sizing: border-box;
+       
+    }
+    
+    
+    .footer-left i, .footer-middle ul li, .footer-right p {
+        
+        font-size: 14px; 
+        margin: 0 5px; 
+    }
+    
+    .footer-middle ul{
+        display: flex;
+    
+    flex-wrap: wrap;
+   
+    list-style-type: none;
+    box-sizing: border-box;
+    }
+    
+    .pre-nav{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+    
+    .mobile-header{
+
+        display: flex;
+        justify-content: space-between;
+    }
+}
