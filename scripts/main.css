@@ -183,7 +183,7 @@ footer{
  .dropdown-content{
     display: none;
     position: fixed;
-    padding-top: 30px;
+    padding-top: 10px;
     left: 0;
     top: 0;
     width: 100vw;
@@ -399,6 +399,7 @@ main{
 .second-menu-list{
     display: flex;
     margin: 100px 0;
+    align-items: center;
 }
 
 .menu-images-3 img{
@@ -440,7 +441,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 74px;
+    padding: 0 74px;
 }
 
 .section-img-div img{

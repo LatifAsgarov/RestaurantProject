@@ -1,0 +1,177 @@
+main{
+   padding: 0 80px;
+}
+
+.about-us h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: Cormorant Garamond, serif;
+}
+
+.about-us{
+    padding: 150px 0;
+}
+
+header {
+    background-image: url(/images/about-bg-header.jpeg);
+}
+.windows{
+    margin: 70px 0;
+}
+.window{
+    display: flex;
+    align-items: center;
+}
+.window-texts{
+    width: 50%;
+    padding: 40px 0px 40px 80px;
+}
+
+.window-texts h5{
+    font-size: 13px;
+    font-family: Jost, sans-serif;
+    color: #dd5903;
+    margin-bottom:30px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.window-texts h1{
+    font-family: Cormorant Garamond, serif;
+    font-size: 74px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.window-texts p{
+    font-size: 18px;
+    font-family: Jost, sans-serif;
+    color: #D3d3d3;
+    margin-bottom: 25px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.window-texts button{
+    font-size: 13px;
+    color: white;
+    background-color: #dd5903;
+    border: none !important;
+    padding: 15px 40px;
+    margin-top: 10px;
+}
+.round-img{
+    width: 50%;
+    border-right: 1px solid rgb(59, 59, 59) !important;
+    padding: 40px 80px 40px 0px;
+}
+
+.round-img img{
+    border-top-left-radius:48%;
+    border-top-right-radius: 48%;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.low{
+    padding: 40px 0 40px 80px;
+     border-left: 1px solid rgb(59, 59, 59) !important;
+      border-right:none; 
+      width: 50%;
+   
+}
+.low img{
+    border-top-left-radius:48%;
+    border-top-right-radius: 48%;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+
+.section-slider-div {
+    position: relative; /* Needed for positioning the overlay */
+    background-image: url('/images/img-58.jpg'); /* Set the background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Create an overlay with a semi-transparent black background */
+.section-slider-div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Adjust the alpha value (0.5) for darker/lighter */
+    z-index: 1; /* Overlay above the background image */
+}
+
+/* Ensure content is above the overlay */
+.quote-and-texts, .section-line {
+    position: relative;
+    z-index: 2; /* Above the overlay */
+}
+.about-locations{
+    padding: 0 100px;
+    
+}
+.loc-head h6{
+    color: #dd5903;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: Jost, sans-serif;
+    font-weight: 600;
+}
+
+.loc-head{
+    margin: 100px 0 40px;
+}
+
+.loc-head h3{
+    font-size: 66px;
+    font-family: Cormorant Garamond, serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 40px;
+}
+
+.locs{
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 80px;
+   color: white;
+}
+
+.loc{
+    text-align: center;
+}
+
+.loc h4{
+    font-size: 24px;
+    font-family: Jost, sans-serif;
+    margin-bottom: 20px;
+}
+.loc p{
+    font-size: 16px;
+    color: #E6E6E6;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-family: Jost, sans-serif;
+    line-height: 25px;
+}
+.loc a{
+    font-family: Jost, sans-serif;
+    font-size: 13px;
+    border-bottom: 2px solid #dd5903;
+    padding-bottom: 3px;
+}

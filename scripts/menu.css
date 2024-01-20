@@ -1,0 +1,22 @@
+.menu-us h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: Cormorant Garamond, serif;
+    font-weight: 100;
+}
+
+.menu-us{
+    padding: 150px 0;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/menu-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+main{
+    padding: 0 80px;
+}
