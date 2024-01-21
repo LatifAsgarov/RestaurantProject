@@ -1,0 +1,242 @@
+.menu-us h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: Cormorant Garamond, serif;
+    font-weight: 100;
+}
+
+.menu-us{
+    padding: 150px 0;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/contact-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+main{
+    padding: 0 80px 50px;
+}
+
+.window{
+    display: flex;
+    align-items: center;
+}
+.window-texts{
+    width: 50%;
+    padding: 40px 0px 40px 80px;
+}
+
+.window-texts h5{
+    font-size: 18px;
+    font-family: Jost, sans-serif;
+    color: #dd5903;
+    margin-bottom:30px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.window-texts h1{
+    font-family: Cormorant Garamond, serif;
+    font-size: 74px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.window-texts p{
+    font-size: 18px;
+    font-family: Jost, sans-serif;
+    color: #D3d3d3;
+    margin-bottom: 25px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.window-texts button{
+    font-size: 13px;
+    color: white;
+    background-color: #dd5903;
+    border: none !important;
+    padding: 15px 40px;
+    margin-top: 10px;
+}
+
+.low{
+    padding: 40px 0 40px 80px;
+     border-left: 1px solid rgb(59, 59, 59) !important;
+      border-right:none; 
+      width: 50%;
+   
+}
+.low img{
+    border-top-left-radius:48%;
+    border-top-right-radius: 48%;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.contact-second-part{
+    display: flex;
+    padding: 100px;
+    background-color: #a18a7b1e;
+}
+.contact-left {
+    width: 40%;
+}
+.contact-left h4{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Jost, sans-serif;
+    color: #dd5903;
+    margin-bottom: 20px;
+}
+.contact-left h1{
+    color: white;
+    font-size: 36px;
+    font-family: Cormorant Garamond, serif;
+    margin-bottom: 20px;
+}
+.contact-left h6{
+    font-size: 16px;
+    font-family: Jost, sans-serif;
+    color: #d3d3d3;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-left p{
+    font-size: 16px;
+    font-family: Jost, sans-serif;
+    color: #d3d3d3;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+.contact-left a{
+    font-family: Jost, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid #dd5903;
+    padding-bottom: 5px;
+}
+
+.contact-right{
+    color: white;
+    font-family: Jost, sans-serif;
+    width: 60%;
+}
+
+.contact-right {
+    /* Styles for the contact form container */
+}
+
+.input-row {
+    display: flex;
+}
+.input-row {
+    display: flex;
+}
+ .input-row .input-group{
+width: 50%;
+}
+
+.input-group input{
+    margin-top: 10px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid #848484;
+}
+.input-group textarea{
+    margin-top: 10px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid #848484;
+}
+.input-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    margin-right: 10px; /* Adjust spacing as needed */
+    margin-bottom: 50px;
+}
+
+.input-group label {
+    margin-bottom: 5px; /* Spacing between label and input */
+}
+
+.input-group input[type="text"], 
+.contact-right textarea {
+    width: 100%; /* Full width inputs */
+    /* Add more styling as needed (e.g., padding, border, etc.) */
+}
+
+.contact-right button {
+    background-color: #dd5903;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+}
+
+/* Clear the margin for the last input group in the row */
+.input-row .input-group:last-child {
+    margin-right: 0;
+}
+
+
+.pre-contact{
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text alignment */
+    /* Add additional styling as needed, like padding, height, etc. */
+    height: 100%; /* Adjust as needed, or use a specific value */
+    padding: 100px 0; /* Example padding */
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/images/last-img.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.pre-contact h4{
+font-size: 18px;
+font-family: Jost,sans-serif;
+margin-bottom: 25px;
+font-weight: 600;
+
+
+}
+
+.pre-contact h2{
+    font-family: Cormorant Garamond, serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.pre-contact p{
+    font-size: 16px;
+    font-family: Jost, sans-serif;
+    width: 60%;
+    color: #D3d3d3;
+
+}
+.last-text{
+    margin-top: 30px;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.last-text input{
+    width: 100%;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #bcbcbc !important;
+    padding-bottom: 5px;
+    color: #7b7b7b;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Jost, sans-serif;
+}
