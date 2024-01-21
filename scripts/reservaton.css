@@ -1,0 +1,185 @@
+.menu-us h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: Cormorant Garamond, serif;
+    font-weight: 100;
+}
+
+.menu-us{
+    padding: 150px 0;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/reserv-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+main{
+    padding: 0 80px;
+}
+
+.book-table{
+    margin-bottom: 40px;
+}
+.table-head{
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: 0 27.25px;
+
+   
+}
+.table-head h4{
+    font-size: 18px;
+    font-family: Jost, sans-serif;
+    margin: 0 0 20px;
+    color: #DD5903;
+    font-weight: 600;
+    
+}
+
+.table-head h1{
+    font-family: Cormorant Garamond, serif;
+    font-size: 66px;
+    margin-bottom: 20px;
+}
+.table-head p{
+    font-size: 18px;
+    font-family: Jost, sans-serif;
+    margin: 0 50px 20px;
+    font-weight: 100;
+    line-height: 30px;
+    
+}
+.fist-intputs input{
+    width: 30%;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgb(120, 120, 120) !important;
+    background-color: black;
+    margin: 30px 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.fist-intputs textarea{
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid rgb(120, 120, 120) !important;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.table-button{
+    text-align: center;
+}
+
+.table-button button{
+    color: #ffffff;
+    background-color: #DD5903;
+    padding: 10px 30px;
+    border: none !important;
+}
+.any{
+    display: flex;
+    margin: 100px 0;
+    
+}
+
+.img-container{
+    display: flex;
+    width: 60%;
+    margin-right: 60px;
+    
+}
+.any-img{
+    position: relative;
+    width: 50%;
+   
+    background-color: #DD5903;
+    margin-right: 20px;
+    padding: 0 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/images/any-1.jpeg');
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image in the div */
+    background-repeat: no-repeat; 
+}
+
+.tex{
+    position: absolute;
+    bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.tex2{
+    position: absolute;
+    top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.te h6{
+    font-size: 13px;
+    font-family: Jost, sans-serif;
+    font-weight: 600;
+
+}
+
+.te h2{
+    font-size: 32px;
+    margin: 15px 0;
+    line-height: 35px;
+}
+.te a{
+    border-bottom: 1px solid #DD5903;
+    padding-bottom: 5px;
+    font-size: 11px;
+    font-family: Jost, sans-serif;
+   
+}
+
+.any-img-2{
+    position: relative;
+    width: 50%;
+   
+    background-color: #DD5903;
+    margin-right: 20px;
+    padding: 0 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/images/any-2.jpeg');
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image in the div */
+    background-repeat: no-repeat; 
+}
+
+.any-texts{
+    width: 50%;
+}
+.any-texts h4{
+    color: #DD5903;
+    font-family: Jost, sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    
+}
+.any-texts h1{
+    font-size: 50px;
+    font-family: Cormorant Garamond, serif;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.any-texts p{
+    color: #D3d3d3;
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 30px;
+    width: 60%;
+}
+

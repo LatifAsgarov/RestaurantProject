@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PatioTime Elegant – Elegant Restaurant</title>
+    <title>Reservation-PatioTime Elegant</title>
     <link rel="stylesheet" href="/scripts/main.css">
+    <link rel="stylesheet" href="/scripts/reservaton.css">
     <script src="/scripts/app.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
@@ -43,7 +44,7 @@
                         <ul>
                             <li>
 
-                                <a href="/pages/home.html" class="active nav-link nav-link-home" id="homeLink">
+                                <a href="/pages/home.html" id="homeLink">
                                     <span>
                                         HOME
                                     </span>
@@ -63,7 +64,8 @@
                                 <a href="/pages/ourMenu.html"> <span>OUR MENU</span></a>
                             </li>
                             <li>
-                                <a href="/pages/reservation.html"><span>RESERVATION</span></a>
+                                <a href="/pages/reservation.html"
+                                    class="active nav-link nav-link-home"><span>RESERVATION</span></a>
                             <li>
                                 <a href=""><span>CONTACT</span></a>
                             <li>
@@ -149,10 +151,10 @@
 
                     <div class="mobile-nav">
                         <div class="ham-nav">
-                            <p class="ham-nav-links"><a href="" style="color: #dd5903;">Home</a></p>
+                            <p class="ham-nav-links"><a href="">Home</a></p>
                             <p class="ham-nav-links"><a href="">About</a></p>
                             <p class="ham-nav-links"><a href="">Our Menu</a></p>
-                            <p class="ham-nav-links"><a href="">Reservation</a></p>
+                            <p class="ham-nav-links"><a href="" style="color: #dd5903;">Reservation</a></p>
                             <p class="ham-nav-links"><a href="">Contact</a></p>
                             <p class="ham-nav-links"><a href="">Latest News</a></p>
                         </div>
@@ -179,207 +181,128 @@
                 </div>
             </div>
         </div>
-        <div style="text-align: center">
 
-        </div>
-        <div id="headerText1" class="header-text">
-            <p class="header-text-f">Welcome to</p>
-            <p class="header-text-s">PatioTime <span style="color:white;">Café</span> </p>
-            <p class="header-text-t"> We serve food, harmony, and laughter. Making delicious food and providing a
-                wonderful eating experience since 1998.</p>
-            <div class="header-btns">
-                <a href="">VIEW MENUS</a>
-                <a href="">BOOK A TABLE</a>
-            </div>
-        </div>
-
-
-        <div id="headerText2" class="header-text">
-            <p class="header-text-f">Seasonal & Delicious</p>
-            <p class="header-text-s">Food Menus</span> </p>
-            <p class="header-text-t">
-                Enjoy an exceptional journey of taste. It’s our job every day to make every important aspect of the
-                customer experience a little bit better.</p>
-            <div class="header-btns">
-                <a href="">TESTING MENUS</a>
-                <a href="">VIEW VINE LIST</a>
-            </div>
+        <div class="menu-us">
+            <h1>RESERVATION</h1>
         </div>
 
     </header>
 
+
+
     <main>
-        <div class="selected-menus-header">
-            <h3> -------- CHEF'S RECOMMENDED --------</h3>
-            <h1>Selected Menus</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            </p>
-        </div>
-
-        <div class="selected-menus">
-            <div class="fist-menu-list">
-                <div class="menu-images">
-                    <img src="/images/selected-menu-l1.jpeg" alt="" style="height: 420px; padding-bottom:30px;">
-                    <img src="/images/selected-menu-1-2.jpeg" alt="">
-                </div>
-                <div class="menu-names">
-                    <h3>STARTERS</h3>
-                    <div class="menu-names-texts">
-                        <h6><span>Purple Corn Tostada</span>
-                            <div class="double-line"></div> <span>$36</span>
-                        </h6>
-                        <p>Ricotta, goat cheese, beetroot and datterini.</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Bruno's Scribble </span>
-                            <div class="double-line"></div> <span>$30</span>
-                        </h6>
-                        <p>Culatello, Spalla Cotta, Mortadella, Culacciona.</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Fresh Oysters Dozen</span>
-                            <div class="double-line"></div> <span>$59</span>
-                        </h6>
-                        <p>Our selection of fresh oysters, limes.</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Wild Mushroom Arancini</span>
-                            <div class="double-line"></div> <span>$18</span>
-                        </h6>
-                        <p>Porcini purée, parmesan, basil.</p>
-                    </div>
-
+        <div class="book-table">
+            <div class="table-head">
+                <h4>ONLINE RESERVATION</h4>
+                <h1>Book A Table</h1>
+                <p>Closed Sunday night, Mondays & Tuesdays. Due to the vast amount of no-shows, all bookings must now be
+                    secured with a credit card which will be charged $20 if you do not show up for your booking.</p>
+            </div>
+            <div class="input-container">
+                <div class="fist-intputs">
+                    <input type="text" name="" id="" value="1 Person">
+                    <input type="date" name="" id="" value="21.01.2024">
+                    <input type="time" name="" id="" value="10:00 AM">
+                    <input type="text" name="" id="" value="Your Name">
+                    <input type="email" name="" id="" value="Email">
+                    <input type="number" name="" id="" value="Phone">
+                    <textarea name="" id="" cols="10" rows="7">Special Requests</textarea>
                 </div>
             </div>
-            <div class="second-menu-list">
-                <div class="menu-names">
-                    <h3>BEVERAGES</h3>
-                    <div class="menu-names-texts">
-                        <h6><span>Prickly Pear Tonic </span>
-                            <div class="double-line"></div> <span>$12</span>
-                        </h6>
-                        <p>Prickly Pear, Chancaca, Key Lime, and Tonic</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Chicha Morada</span>
-                            <div class="double-line"></div> <span>$12</span>
-                        </h6>
-                        <p>Purple Corn, Pineapple, Apple, Cinnamon, and Clove</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Better Boy </span>
-                            <div class="double-line"></div> <span>$10</span>
-                        </h6>
-                        <p>Tomato, Salt, Black Pepper, Lemon, Worcestershire</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Tommy's Margarita </span>
-                            <div class="double-line"></div> <span>$13</span>
-                        </h6>
-                        <p>Tequila, fresh lime juice, and orange liqueur</p>
-                    </div>
-
-                </div>
-                <div class="menu-images" style="margin-left: 50px;">
-                    <img src="/images/selected-menu-2.jpeg" alt="">
-                    <img src="/images/selected-menu-2-1.jpeg" alt="" style="height: 420px; padding-bottom:30px;">
-                </div>
-            </div>
-
-            <div class="second-menu-list">
-                <div class="menu-images-3">
-                    <img src="/images/selected-menu-3.jpeg" alt="">
-                </div>
-                <div class="menu-names">
-                    <h3 style="margin-top: 40px;">MAIN COURSES</h3>
-                    <div class="menu-names-texts">
-                        <h6><span>Ebony MB4 Rib Fillet Steak </span>
-                            <div class="double-line"></div> <span>$58</span>
-                        </h6>
-                        <p>Truffle mash, charred baby cos, pico de gallo, pepper sauce.</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Flank Steak </span>
-                            <div class="double-line"></div> <span>$38</span>
-                        </h6>
-                        <p>Served medium rare, chips, house salad, mushroom sauce.</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Crispy Skin Chicken </span>
-                            <div class="double-line"></div> <span>$33</span>
-                        </h6>
-                        <p>Ricotta, radicchio, peach & prosciutto salad, cabernet jus.</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Pan Fried Barramundi </span>
-                            <div class="double-line"></div> <span>$36</span>
-                        </h6>
-                        <p>Barley, quinoa, grilled zucchini, corn & tomato salsa.</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Beer Battered Fish & Chips</span>
-                            <div class="double-line"></div> <span>$33</span>
-                        </h6>
-                        <p>Atlantic cod fillet, chips, salad, tartare, lemon.</p>
-                    </div>
-                    <div class="menu-names-texts">
-                        <h6><span>Blue Eyed Cod</span>
-                            <div class="double-line"></div> <span>$49</span>
-                        </h6>
-                        <p>Mussels, lobster bisque, heirloom tomato & summer herbs.</p>
-                    </div>
-
-                </div>
+            <div class="table-button">
+                <button>BOOK A TABLE NOW</button>
             </div>
         </div>
 
-        <div class="main-buttons">
-            <button class="main-btn menu-btn-1">VIEW FULL MENU</button>
-            <button class="main-btn menu-btn-2">ORDER ONLINE</button>
+        <div class="four-img">
+            <div class="any">
+                <div class="img-container">
+                    <div class="any-img">
+                    <div class="tex te">
+                        <h6>RECOMMENDED</h6>
+                        <h2>SPRING <br> MENUS</h2>
+                        <a href="">DISCOVER MORE</a>
+                    </div>
+                    </div>
+                    <div class="any-img-2">
+                        <div class="tex2 te">
+                            <h6>SWEETS</h6>
+                            <h2>DESSERTS <br> MENUS</h2>
+                            <a href="">DISCOVER MORE</a>
+                        </div>
+                        </div>
+                    
+                </div>
+                <div class="any-texts">
+                    <h4>AUSTRALIA</h4>
+                    <h1>Melbourne</h1>
+                    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
+                    <div class="pre-nav-left">
+                        <a
+                            href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864"><i
+                                class="fas fa-map-marker-alt"> </i> Silk St, Barbican, London EC2Y 8DS, UK</a>
+                    </div>
+                    <div class="ll-nav" style="margin-right: 10px;">
+                        <a href="#home"><i class="fas fa-phone"></i></a>
+                        <a href="#about"> +39-055-12345</a>
+                    </div>
+                    <div class="ll-right">
+                        <a href="#services"><i class="fa-regular fa-envelope"> </i> booking@patiotime.com</a>
+                    </div>
+                    <h3>OPEN HOURS</h3>
+                    <p>Mon – Thu: 10.00 am – 01:00 am <br>Fri – Sun: 10:00 am – 02:00 am</p>
+                    <a href="" style="font-size: 13px;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid #DD5903;"> GET DIRECTIONS</a>
+                </div>
+            </div>
+
+            <div class="any">
+
+                <div class="any-texts">
+                    <h4>UNITED KINGDOM</h4>
+                    <h1>London</h1>
+                    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
+                    <div class="pre-nav-left">
+                        <a
+                            href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864"><i
+                                class="fas fa-map-marker-alt"> </i> Silk St, Barbican, London EC2Y 8DS, UK</a>
+                    </div>
+                    <div class="ll-nav" style="margin-right: 10px;">
+                        <a href="#home"><i class="fas fa-phone"></i></a>
+                        <a href="#about"> +39-055-12345</a>
+                    </div>
+                    <div class="ll-right">
+                        <a href="#services"><i class="fa-regular fa-envelope"> </i> booking@patiotime.com</a>
+                    </div>
+                    <h3>OPEN HOURS</h3>
+                    <p>Mon – Thu: 10.00 am – 01:00 am <br>Fri – Sun: 10:00 am – 02:00 am</p>
+                    <a href="" style="font-size: 13px;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid #DD5903;"> GET DIRECTIONS</a>
+                </div>
+                <div class="img-container">
+                    <div class="any-img" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/images/any-3.jpeg');">
+                    <div class="tex te">
+                        <h6>BEVERAGES</h6>
+                        <h2>WINE <br> LISTS</h2>
+                        <a href="">DISCOVER MORE</a>
+                    </div>
+                    </div>
+                    
+                    <div class="any-img-2" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/images/any-4.jpeg');">
+                        <div class="tex2 te">
+                            <h6>FUNCTIONS</h6>
+                            <h2>UPCOMING <br> EVENTS</h2>
+                            <a href="">DISCOVER MORE</a>
+                        </div>
+                        </div>
+                    
+                </div>
+                
+            </div>
         </div>
     </main>
-
-    <section>
-        <div class="section-img-div">
-            <img src="/images/section-img.jpeg" alt="">
-        </div>
-
-        <div class="section-slider-div">
-            <div class="section-line" style="color: white;">-------------</div>
-            <div class="quote-and-texts">
-                <h3>"</h3>
-                <p>Food is the foundation of true happiness. Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-                    aenean commodo.</p>
-                    <h4>Alice Wayne</h4>
-                    <h6>Blogger</h6>
-            </div>
-            <div class="section-line" style="color: white;">-------------</div>
-        </div>
-
-        <div class="section-two-div">
-            <div class="section-left sections">
-                <h6>FIND THE RESTAURANT</h6>
-                <h1>VISIT US</h1>
-                <p>Northern end of the Overseas Passenger <br> Terminal, Circular Quay, Sydney NSW 2000, Australia</p>
-            
-                <h3>OPEN HOURS</h3>
-                <p>Mon – Thu: 10.00 am – 01:00 am <br>Fri – Sun: 10:00 am – 02:00 am</p>
-               
-                <p style="display: inline; border-bottom:2px solid #dd5903; padding-bottom:5px;">GET DIRECTIONS</p>
-            </div>
-            <div class="section-right sections">
-                <h6>BOOK A TABLE</h6>
-                <h1>RESERVATION</h1>
-                <p>Planning a romantic dinner for two or a communal  <br> meal with family or friends? Book a table now.</p>
-            
-                <h3>BOOKING</h3>
-                
-                <p>Email: booking@patiotime.com<br>Call us: +39 055 1234567</p>
-               
-                <p style="display: inline; border-bottom:2px solid #dd5903; padding-bottom:5px;">ONLINE RESERVATION</p>
-            </div>
-        </div>
-    </section>
 
 
     <footer>
