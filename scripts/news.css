@@ -1,0 +1,60 @@
+.menu-us h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: Cormorant Garamond, serif;
+    font-weight: 100;
+}
+
+.menu-us{
+    padding: 150px 0;
+}
+
+header {
+    background:  url('/images/news.bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+main{
+    padding: 0 80px 50px;
+}
+
+.news-texts p{
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Jost, sans-serif;
+    margin-bottom: 15px;
+
+}
+.news-texts h5{
+    font-family: Cormorant Garamond, serif;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: white;
+
+}
+
+.news-texts a{
+    font-family: Jost, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: 2px solid #dd5903;
+    padding-bottom: 5px;
+}
+
+.tirple{
+    display: flex;
+}
+
+.news-cards{
+    margin-right: 40px;
+    width: 30%;
+
+}
+
+.news-img img{
+    width: 100%;
+}
