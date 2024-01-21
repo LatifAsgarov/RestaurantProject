@@ -14,7 +14,7 @@ main{
 }
 
 header {
-    background-image: url(/images/about-bg-header.jpeg);
+    background-image: url("../images/about-bg-header.jpeg");
 }
 .windows{
     margin: 70px 0;
@@ -95,7 +95,7 @@ header {
 
 .section-slider-div {
     position: relative; /* Needed for positioning the overlay */
-    background-image: url('/images/img-58.jpg'); /* Set the background image */
+    background-image: url('../images/img-58.jpg'); /* Set the background image */
     background-size: cover;
     background-position: center;
 }

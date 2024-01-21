@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var headerText2 = document.getElementById('headerText2');
 
     var slides = [
-        { image: '/images/bg-image1.jpeg', textDiv: headerText1 },
-        { image: '/images/bg-image2.jpeg', textDiv: headerText2 }
+        { image: '../images/bg-image1.jpeg', textDiv: headerText1 },
+        { image: '../images/bg-image2.jpeg', textDiv: headerText2 }
     ];
 
     var currentIndex = 0;

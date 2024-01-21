@@ -11,7 +11,7 @@
 }
 
 header {
-    background:  url('/images/news.bg.jpeg');
+    background:  url('../images/news.bg.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

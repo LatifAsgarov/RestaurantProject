@@ -11,7 +11,7 @@
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/contact-bg.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/contact-bg.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ width: 50%;
     /* Add additional styling as needed, like padding, height, etc. */
     height: 100%; /* Adjust as needed, or use a specific value */
     padding: 100px 0; /* Example padding */
-    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/images/last-img.jpeg');
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/last-img.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

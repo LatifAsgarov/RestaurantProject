@@ -291,7 +291,7 @@ footer{
 }
 
 header {
-    background-image: url('/path/to/initial/image.jpg'); /* Initial background image */
+    background-image: url('../path/to/initial/image.jpg'); /* Initial background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -545,7 +545,7 @@ background-size: cover;
 }
 .section-left:hover {
     width: 60%;
-    background-image: url('/images/visit-us-img.jpeg'); /* Background image on hover */
+    background-image: url('../images/visit-us-img.jpeg'); /* Background image on hover */
     background-size: cover;
     background-position: center;
 }
@@ -557,7 +557,7 @@ background-size: cover;
 /* Hover effect on the right section */
 .section-right:hover {
     width: 60%;
-    background-image: url('/images/reservation-img.jpeg'); /* Background image on hover */
+    background-image: url('../images/reservation-img.jpeg'); /* Background image on hover */
     background-size: cover;
     background-position: center;
 }
