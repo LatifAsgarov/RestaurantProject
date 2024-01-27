@@ -237,4 +237,18 @@ font-weight: 600;
     font-size: 14px;
     font-weight: 200;
     font-family: Jost, sans-serif;
+    padding-bottom: 10px;
+}
+
+.last-text {
+    position: relative;
+}
+
+
+.last-text i.fa-arrow-right {
+    position: absolute;
+    right: 0; /* Adjust as necessary */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
 }
